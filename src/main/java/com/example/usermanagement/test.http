@@ -1,0 +1,16 @@
+PUT http://localhost:8082/api/admin/update
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbjEiLCJpYXQiOjE2MjI3MzY4NzYsImV4cCI6MTYyMjgyMzI3Nn0.FV46K4MJC9G8MA5K7-2irozHBcv-aXrok_fnxBPF43T9M2eXJuaEW5j2yujwXiLx_vUjt_DAz3ro5e2jy9h19w
+
+{
+  "id":6,
+  "fullName":"Vu Khoi vip",
+  "username":"javavip",
+  "address":"Ha Noi",
+  "dateOfBirth":"2000-12-02",
+  "role": {
+    "id": "2",
+    "name": "ROLE_USER"
+  },
+  "updaterId": "7"
+}
